@@ -1,0 +1,90 @@
+.navbar-fixed-top {
+    margin-top: 40px;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #c154c1;
+}
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+.navbar-default .navbar-nav>li>a:hover, focus {
+    color: #fff;
+    background-color: #c154c1;
+}
+.brand {
+    font-size: 2em;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.brand:hover, focus {
+    text-decoration: none;
+    color: #c154c1
+}
+.brand:hover {
+
+}
+.navbar-default .navbar-toggle {
+    border-color: #000;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #c154c1;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+@media screen and (max-width:768px){
+    .navbar-default .navbar-nav>li>a:hover, focus {
+        color: #fff;
+        background-color: #c154c1;
+    }
+}
+@media screen and (min-width:320px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        /*width: 160px;*/
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -60px;
+    }
+}
+.top-bar {  
+    position: fixed; 
+    display: inline-block;
+    height: 8%;
+    width: 100%;
+    background-color: #000;
+}
+.bg { 
+	height: 100vh;
+	background: url(../img/bg3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.phone {
+    margin-top: auto;
+    text-align: right;
+    font-size: 3vh;
+    color: #fff;
+}
+.center-element {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.lg {
+    font-size: 9vh;
+    color: #fff;
+    text-align: center;
+}
